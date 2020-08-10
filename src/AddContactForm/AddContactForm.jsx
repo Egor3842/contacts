@@ -36,11 +36,10 @@ const AddContactForm = (props) => {
             let nameCheck = new RegExp (/^[а-яё]*$/i);
             let numberCheck = new RegExp (/[0-9]/);
             let test1 = mailCheck.test(mail);
-            let test2 = nameCheck.test(name);
             let test3 = nameCheck.test(country);
             let test4 = nameCheck.test(city);
             let test5 = numberCheck.test(number)
-        if (test1 && test2 && test3 && test4 && test5 ){
+        if (test1  && test3 && test4 && test5 ){
             props.AddContact(name,mail,number,country,city);
             props.setButtonClick(false);
         }
