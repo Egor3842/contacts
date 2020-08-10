@@ -1,0 +1,49 @@
+.container{
+    height: 1000px;
+    width: 1100px;
+    position: absolute;
+    left:20%;
+    top:30px;
+}
+.outButton{
+    position: relative;
+    width: 80px;
+    height:25px;
+    color:white;
+    left:40%;
+    border-radius: 20px;
+    border: none;
+    background-color: #99ccff;
+}
+.search{
+    color: black;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left:10px;
+    border-radius: 20px;
+    background-color:#e8e8e8 ;
+    border: 2px solid #e8e8e8;
+}
+.table {
+    margin-top: 70px;
+    border: 1px solid #99ccff;
+    border-collapse: collapse;
+    width: 800px;
+} 
+.Edite{
+    width: 25px;
+    height: 25px;
+}
+.button {
+    margin-top: 100px;
+}
+.tr {
+    border: 1px solid #99ccff;
+}
+.fullInfo{
+    position: absolute;
+    top:70px;
+    right: 10px;
+}
+

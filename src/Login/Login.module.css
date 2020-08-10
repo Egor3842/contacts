@@ -1,0 +1,65 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #353535;
+}
+.header{
+    position: relative;
+    top:20px;
+    font-weight: 600;
+    font-size: 32px;
+}
+.loginForm {
+    border-radius: 25px;
+   background-color: white;
+    position: relative;
+    margin: 0 auto;
+    top:25%;
+    height: 300px;
+    width: 500px;
+}
+.line{
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 2px;
+    position: relative;
+    top:30px;
+}
+.inputs{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin-top: 50px;
+    left:30%;
+}
+input {
+
+    background-color: #e8e8e8;
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top:20px;
+    border: #e8e8e8;
+}
+input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-size:10pt;
+    font-weight: 200;
+    padding-left:10px;
+  }
+button{
+    position: relative;
+    width: 80px;
+    height:25px;
+    color:white;
+    top:35%;
+    left: 12%;
+    border-radius: 20px;
+    border: none;
+    background-color: #99ccff;
+}
+.error{
+    color: crimson;
+    position: relative;
+    top:15%;
+}
