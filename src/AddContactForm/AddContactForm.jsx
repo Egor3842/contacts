@@ -80,6 +80,7 @@ const AddContactForm = (props) => {
                 </tbody>
             </table>
     {Error ==='' ? '':<div className = {s.error}>{Error}</div>}
+            
             <button className ={s.addButton} onClick = {()=>AddNewContact(name,mail,number,country,city)}>Добавить</button>
         </div>
     )
